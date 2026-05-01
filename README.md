@@ -57,11 +57,18 @@ Digite uma frase e pressione Enter. O servidor retorna em maiúsculas.
 py TCPConcurrentServer.py
 ```
 
-**Terminal 2+ (Múltiplos Clientes – abra quantos quiser):**
+**Terminal 2 (Cliente 1):**
 ```bash
 py TCPConcurrentClient.py
 ```
-Digite mensagens. Pressione CTRL+C para sair.
+
+**Terminal 3 (Cliente 2):**
+```bash
+py TCPConcurrentClient.py
+```
+
+Digite mensagens em cada cliente. Pressione CTRL+X para sair.
+O servidor suporta múltiplos clientes simultâneos através de threads.
 
 ## 📝 Características
 

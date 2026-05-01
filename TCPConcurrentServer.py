@@ -20,6 +20,7 @@ def conectado(con, cliente):
             break
         print('\nCliente..:', cliente)
         print('Mensagem.:', msg.decode())
+        con.send(msg.upper())
     print('\nFinalizando conexao do cliente', cliente)
     con.close()
     _thread.exit()
