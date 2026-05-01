@@ -6,7 +6,7 @@ Implementação e testes de programação em sockets utilizando os protocolos UD
 
 **Aluno:** LUIZ FERNANDO BATISTA MOREIRA  
 **Curso:** Engenharia de Software  
-**Disciplina:** Redes de Computadores 3  
+**Disciplina:** Redes de Computadores 
 **Professor:** Marco Aurelio de Souza Birchal  
 **Data:** Abril de 2026
 
